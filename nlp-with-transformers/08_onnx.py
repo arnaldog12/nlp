@@ -35,6 +35,7 @@ convert(
     opset=12,  # onnx version
     pipeline_name="text-classification",
 )
+# https://github.com/nlp-with-transformers/notebooks/issues/117
 
 
 def create_model_for_provider(model_path, provider="CPUExecutionProvider"):
