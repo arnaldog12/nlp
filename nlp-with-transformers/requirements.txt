@@ -15,6 +15,7 @@ sacrebleu==1.5.1
 rouge-score==0.0.4
 py7zr # Needed for samsum dataset
 # Chapter 9 - Few labels
+faiss-cpu==1.7.4
 nlpaug==1.1.7
 scikit-multilearn==0.2.0
 # Chapter 10 - Pretraining
